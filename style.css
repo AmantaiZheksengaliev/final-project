@@ -1,0 +1,89 @@
+a,
+a:hover,
+a:active,
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    margin-top: 0;
+    background: rgba(0,0,0,0.7);
+    padding: 0 2%;
+}
+
+.nav-bar *{
+    display: inline;
+}
+
+.nav-bar ul.primary-menu-list li{
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 -2px;
+}
+
+.nav-bar ul.primary-menu-list li a{
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav-bar ul.primary-menu-list li a:hover{
+    background: rgb(0,0,0);
+}
+
+.nav-bar ul.primary-menu-list li.active a{
+    background: rgb(0,0,0);
+}
+
+
+.nav-bar .auth-list{
+    margin-top: -18px;
+    float: right;
+}
+
+.nav-bar ul.auth-list li{
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 -2px;
+}
+
+.nav-bar ul.auth-list li a{
+    text-decoration: underline;
+    display: block;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+section#content{
+    padding: 0 20%;
+}
+
+.post{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.post h3{
+    margin: 0;
+}
