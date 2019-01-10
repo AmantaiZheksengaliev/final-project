@@ -17,7 +17,7 @@
         </ul>
 
         <ul class="auth-list">
-            <li><a href="profile.php">Kaisar Kuanysh</a></li>
+            <li><a href="profile.php">Amantai Zheksengaliev</a></li>
         </ul>
     </div>
 
